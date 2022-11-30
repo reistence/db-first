@@ -1,0 +1,33 @@
+SECOND-HAND CARS DB
+
+Data Structure:
+
+id - INT - PRIMARY KEY(NOTNULL, UNIQUE) - AUTO_INCREMENT
+
+acceleration_time - FLOAT(10,8) - NULL
+accessories - TEXT - NULL
+acriss_code - VARCHAR(4) - NOTNULL
+cargo_volume - SMALLINT - NULL
+color - VARCHAR(20) - NULL
+conditions_state - TEXT - NOTNULL
+doors_number - TINYINT - NULL
+emissions - VARCHAR(10) - NULL
+engine - VARCHAR(10) - NOTNULL - INDEX
+fuel_capacity - VARCHAR(20) - NULL
+fuel_consumption - VARCHAR(10) - NULL
+fuel_type - VARCHAR(10) - NOTNULL - INDEX
+known_vehicle_damages - TEXT - NULL
+manufacturer - VARCHAR(32) - NOTNULL - INDEX
+milaeage_from_odometer - FLOAT(10,2) - NOTNULL
+model - VARCHAR(50) - NOTNULL - INDEX
+numbers_of_previous_owner - TINYINT - NULL
+price - DECIMAL(10, 2) - NOTNULL - INDEX
+purchase_date - DATE - NULL
+registration_date - DATE - NOTNULL
+release_date - YEAR - NOTNULL - INDEX
+rims - VARCHAR(30) - NULL
+seating_capacity - TINYINT - NULL
+speed - VARCHAR(5) - NULL
+vehicle_category - TEXT - NULL
+vehicle_images - VARCHAR(255) - DEFAULT("img_path")
+
